@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/82eb69e53c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/custom.css">
+    <script defer src="../normalJS/Login.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="main-box">
+        <!-- Replace # with your route -->
+        <form action="#" id="login-form">
+                <i class="fa-solid fa-person-swimming text-4xl"></i>
+                <p class="text-xl text-bold">Login</p>
+            <br>
+
+            <div class="field">
+                <!-- |<------  field -->
+                <label class="label">Email/Username</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="e.g Alex Smith" id="email">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Password</label>
+                <div class="control">
+                    <input class="input" type="password" placeholder="e.g. 1234" id="password">
+                </div>
+                <p class="text-sm">Need a account? <a href="/signup">Sign Up Now!</a> </p>
+            </div>
+            <br>
+                <button class="button is-info">Login</button>
+    </div>
+    </form>
+    </div>
+</body>
+
+</html>

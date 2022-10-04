@@ -1,0 +1,134 @@
+/* Imports and universal */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+
+    background-image: url(../assets/swim.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+label {
+    color: #fff;
+}
+
+/* Html selectors */
+form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    border-radius: 4px;
+    border: 1px black;
+    min-height: 60%;
+    background-color: #fff;
+}
+
+p {
+    padding: 2px;
+}
+
+/* Main Box */
+.main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Lock Image */
+.img-lock {
+    width: 100px;
+    height: 100px;
+}
+
+/* Input Boxes */
+/* Field is input class */
+.field {
+    width: 75%;
+}
+
+/* Date selector */
+.date {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2px;
+}
+
+
+/* font sizes */
+
+.text-sm {
+    font-size: 0.7rem;
+}
+
+.text-md {
+    font-size: 1rem;
+}
+
+.text-lg {
+    font-size: 1.5rem;
+}
+
+.text-xl {
+    font-size: 2rem;
+}
+
+.text-2xl {
+    font-size: 2.5rem;
+}
+
+.text-3xl {
+    font-size: 3rem;
+}
+
+.text-4xl {
+    font-size: 3.5rem;
+}
+
+/* text thickness */
+.text-thin {
+    font-weight: 100;
+}
+
+.text-normal {
+    font-weight: normal;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+/* Responsiveness */
+/* for screen size under 1045px */
+@media only screen and (max-width: 1045px) {
+    form {
+        width: 60%;
+    }
+
+    .label {
+        font-size: 0.8rem;
+    }
+}
+/* For screen size under 780px */
+@media only screen and (max-width: 780px) {
+    form {
+        width: 70%;
+    }
+}
+/* For screen size under 465px */
+@media only screen and (max-width: 465px) {
+    form {
+        width: 90%;
+    }
+}
