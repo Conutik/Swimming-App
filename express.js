@@ -2,6 +2,12 @@ const express = require("express");
 const app = express();
 const fs = require("fs");
 const Firebase = require("./classes/Firebase.js")
+const cookieParser = require('cookie-parser')
+const adminInstance = Firebase.getAdminInstance();
+
+
+
+
 
 
 
@@ -9,6 +15,7 @@ app.enable("trust proxy") // ::1 = localhost
 app.set("etag", false) // cache disabled
 app.use(express.static(__dirname + "/website"))
 app.use(express.json())
+app.use(cookieParser());
 
 let files = fs.readdirSync("./website/documents").filter(f => f.endsWith(".js"))
 
@@ -43,6 +50,7 @@ let fb = Firebase.construct({
     appId: "1:868892607675:web:fdb740bd67be8a59e0d59e",
   })
   if(fb) console.log("[Database] - Loaded")
+
   
 const port = process.env.PORT || 3000
 app.listen(port, async() => {
