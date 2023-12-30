@@ -1,13 +1,1 @@
-{
-    "type": "service_account",
-    "project_id": "swimming-39fc",
-    "private_key_id": "c872b5c75aaf5844d35d",
-    "private_key": "rlz8uN+5PsKIB/hYSuz\nA1y1ojVjHI38Zhel/OO0Ge96lhqT5vFQfxgMeFDxB8J1EwI+C3oAgMBAAECggEABhoQsu/DcoK5oA2lsMFdcCK7ag0Ud07c4n+mvq1sT3EJ\n25rshiKpEluFuxOt/npQmMidRd7hDumZeDNAmLZy0RGUq5WuDWhSO6vJQOwRL7Mi\nHNv7hjVN+DdEofBWSq97nZ0FnPJtsXM76Lk1SQAtNujr4lehOP+j7CvhkajhnuIl\n3OiCAtRJm1yvoj2Sp1vwwOsfrl4k7i3pq9NlvtvoFpIKwd7W0lg1qqrnhPXIxWJL\nPSLD9FQ0XpTZc2yt129uIoPSVSZ3nFZYF5hv2PYSFB2fdEX7oiBcdfe60bpxNqZY\nIzotkm4sWFnkX7cI7dmkQCdWx/GPU6XQCCViKgSqmQKBgQD6D8V1tPZuQg9SCBVa\njt99BSMWv9WyjaxLX7ugFu/jHMebVzJWZIarRfJgBea8de9mzJ1cX1jNFp8Rd3dW\nhVIcYMQpoSQ66dv6ilZkuB4T54ZngC/PUUv7nb2TJ53E/2k1S+EAHwADOn2Suc6z\nnSLMOMJJhEZT4TuJNm06Mi4RjQKBgQDueAZGNBkvA0ZcLEIo0Lcq8jzZLf6JfvAq\nnMLt24o/nzBrSTPPGrdYT1egiFeb9uIQ03ssktCrwgtx6d5YRvmEvDz4pZSBtKz6\n3/DdStcoUV4zU3JdcbNztlEcNdRxXJXSWWTJG0JXnzEEh0SeBWGHU29d5bpkOALv\n8PLfokDeWQKBgGQSObBgShpXv2/RolIKSS/sBV3OSYPaJHBJkHmBlGCsHMlyvMdM\nFYSnSlbZJbyX6cWW7waPdaclfWTtDUoHspN+uiH6xdf5zLnX8Lj/4bGPfv8ekoOC\nAklgmAQy33V9zSmyAwocXdHs72Hvj+PbZ5iYwk/PaqGYyk2gBVg7yqnlAoGAc8pX\n0ZLOf6NpcKwU29isd+/zV8kbhQvb9fT0OaaWNFpJmm6K948TY4/zDoHleFeiYWUu\ns+/93shz4jYavmaIFcmJGXrc5zYhoBdIz0rdujf4M5fbOkBRUGhAbiA9LWY1YVQC\nuhvAVOd5V6eOy+P0/U6oDsHThYIk+vjWFXylXtECgYEAvuNuQcFXVTxzcmzEaKfx\ne9G2sKSfL4b/2czYSgy+sIl3ydj0XOdmK+/9NZ9mpEtYR0m6F0k26BLqWTlhKtGz\n1lS8YLKKgFjcR0XpJptzR9OhEN2K6mASYibxAnk4HoGbqI6t5bBdCFNtzxN4Ov8W\nHSCBk3v1LKjif2CcZxKIHao=\n-----END PRIVATE KEY-----\n",
-    "client_email": "firebase-adminsdk-atfku@swimming-39fc.iam.gserviceaccount.com",
-    "client_id": "1070327952",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-atfku%40swimming-399fc.iam.gserviceaccount.com"
-  }
-  
+No
